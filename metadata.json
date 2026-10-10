@@ -1,0 +1,6 @@
+{
+  "name": "Quran Video Editor",
+  "description": "Professional mobile Quran video editor by Hafiz Abdul Majid Mangrew featuring multi-track timeline, complete 114 Surahs, Urdu translations, custom typography, canvas ratios, and video export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

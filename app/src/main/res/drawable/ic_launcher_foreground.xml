@@ -1,0 +1,82 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Filmstrip / Islamic Frame Border -->
+    <path
+        android:strokeColor="#FFD56B"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M28,26 L80,26 C82.2,26 84,27.8 84,30 L84,78 C84,80.2 82.2,82 80,82 L28,82 C25.8,82 24,80.2 24,78 L24,30 C24,27.8 25.8,26 28,26 Z" />
+
+    <!-- Video Film Sprocket Holes (Top and Bottom) -->
+    <path
+        android:fillColor="#FFD56B"
+        android:pathData="M29,29 h5 v4 h-5 z M42,29 h5 v4 h-4 z M55,29 h5 v4 h-5 z M68,29 h5 v4 h-5 z" />
+    <path
+        android:fillColor="#FFD56B"
+        android:pathData="M29,75 h5 v4 h-5 z M42,75 h5 v4 h-4 z M55,75 h5 v4 h-5 z M68,75 h5 v4 h-5 z" />
+
+    <!-- Open Holy Quran Book Silhouette -->
+    <!-- Left page -->
+    <path
+        android:pathData="M52,40 C43,38 35,40 33,42 L33,65 C35,63 43,61 52,63 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="33"
+                android:startY="40"
+                android:endX="52"
+                android:endY="65"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFF3D0" />
+                <item android:offset="1.0" android:color="#E5A93C" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Right page -->
+    <path
+        android:pathData="M56,40 C65,38 73,40 75,42 L75,65 C73,63 65,61 56,63 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="75"
+                android:startY="40"
+                android:endX="56"
+                android:endY="65"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFF3D0" />
+                <item android:offset="1.0" android:color="#E5A93C" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Quran Book Stand (Rihal) curves -->
+    <path
+        android:strokeColor="#FFC107"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M44,65 L36,73 M64,65 L72,73 M54,63 L54,71" />
+
+    <!-- Islamic Calligraphic lines / verses on book -->
+    <path
+        android:strokeColor="#0B131A"
+        android:strokeWidth="1.0"
+        android:fillColor="#00000000"
+        android:pathData="M37,47 Q44,46 48,48 M37,52 Q44,51 48,53 M37,57 Q44,56 48,58" />
+    <path
+        android:strokeColor="#0B131A"
+        android:strokeWidth="1.0"
+        android:fillColor="#00000000"
+        android:pathData="M60,48 Q64,46 71,47 M60,53 Q64,51 71,52 M60,58 Q64,56 71,57" />
+
+    <!-- Center Play Button with Islamic Rosette glow -->
+    <path
+        android:fillColor="#26A69A"
+        android:pathData="M54,43 A11,11 0 1,1 53.9,43 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M51,48 L59,54 L51,60 Z" />
+
+</vector>
